@@ -1,4 +1,6 @@
 package Toure_Dubromel;
 
-public class PersonnelCabine {
+public class PersonnelCabine extends Employe{
+    public String qualification;
+
 }

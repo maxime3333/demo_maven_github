@@ -1,4 +1,5 @@
 package Toure_Dubromel;
 
-public class Passager {
+public class Passager extends Personne{
+    public int passeport;
 }
