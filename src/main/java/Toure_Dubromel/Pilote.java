@@ -4,7 +4,7 @@ public class Pilote extends Employe {
     public String licence;
     public int heuresDeVol;
 
-    public Pilote(String id, String nom, String adresse, String contact, Integer numEmp, int date, String licence) {
+    public Pilote(String id, String nom, String adresse, String contact, String numEmp, String date, String licence) {
         super(id, nom, adresse, contact, numEmp, date);
         this.licence = licence;
         this.heuresDeVol = 0;
