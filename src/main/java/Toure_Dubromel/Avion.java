@@ -2,6 +2,14 @@ package Toure_Dubromel;
 
 public class Avion {
     public String immatriculation;
-    public String model;
+    public String modele;
     public int capacite;
+
+    public Avion(String immatriculation, String modele, int capacite) {
+        this.immatriculation = immatriculation;
+        this.modele = modele;
+        this.capacite = capacite;
+    }
+
+    public boolean verifierDisponibilite() { return true; } // À lier au planning
 }
